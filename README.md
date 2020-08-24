@@ -24,3 +24,6 @@ website : regex101.com
 . any character whatsoever (except the newline character)
 * the 0 or more quantifier (a bit like +)
 
+$ -> penutup
+^[a-z]{5}$ -> harus fix 5 charactter -> ninja boyet
+
