@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col xs12 sm6">
+                <h4 class="center orange-text">Input New User</h4>
+                <form action="">
+                    <input type="text" name="username" id="">
+                    <div class="red-text">
+                        Username must be alphanumeric and contain 5-12 characters
+                    </div>
+                    <input type="email" name="email" id="">
+                    <div class="red-text">
+                        Email must be a valid address, eg : myemail@yahoo.com
+                    </div>
+                    <input type="password" name="password" id="">
+                    <div class="red-text">
+                        Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 character
+                    </div>
+                    <input type="number" name="telephone" id="">
+                    <div class="red-text">
+                        Telephone must be a valid UK telephone number (11 digits)
+                    </div>
+                    <input type="text" name="slug" id="">
+                    <div class="red-text">
+                        SLug must contain only lowercase letters, numbers and hypens and be 8 - 20 characters
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>      
+    <script type="text/javascript" src="validation.js"></script>
+</body>
+</html>
