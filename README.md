@@ -27,3 +27,8 @@ website : regex101.com
 $ -> penutup
 ^[a-z]{5}$ -> harus fix 5 charactter -> ninja boyet
 
+(pet|toy|crazy) rabbit 
+-> pet rabbit
+-> toy rabbit
+-> crazy rabbit
+-> hello rabiit -> not match
