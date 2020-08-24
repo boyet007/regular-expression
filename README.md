@@ -15,3 +15,12 @@ website : regex101.com
 \t match a tab character only
 
 /\d{3}\s\w{5} -> 3 karakter pertama harus angka kemudian 1 karakter spasi kemudian 5 karakter berikut.. -> 123 ninja
+
++ -> the one or more quantifier
+\ -> the escape character
+[] -> the character set
+[^]  -> the negate symbols in a character sest
+? the zero or one quantifier (makes a preceding char optional)
+. any character whatsoever (except the newline character)
+* the 0 or more quantifier (a bit like +)
+
