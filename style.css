@@ -1,0 +1,12 @@
+input.valid { border-color:green; }
+input.invalid { border-color:orange !important; }
+
+.red-text { color:orange !important;}
+
+input+.red-text {
+    opacity: 0;
+}
+
+input.invalid+.red-text {
+    opacity: 1;
+}
